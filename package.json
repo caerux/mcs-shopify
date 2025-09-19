@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "remix vite:build",
-    "dev": "shopify app dev",
+    "dev": "npm exec remix vite:dev",
+    "dev:secure": "npm exec remix vite:dev --host 0.0.0.0 --port 3000",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
@@ -57,7 +58,6 @@
     "extensions/*"
   ],
   "trustedDependencies": [
-    "@shopify/plugin-cloudflare"
   ],
   "resolutions": {
     "@graphql-tools/url-loader": "8.0.16",
