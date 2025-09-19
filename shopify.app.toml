@@ -2,7 +2,7 @@
 
 client_id = "e3b6594ad7e90f604458beac7439253a"
 name = "mcs-seller"
-application_url = "https://example.com/"
+application_url = "https://mcs-shopify.vercel.app/"
 embedded = true
 handle = "mcs-seller"
 
@@ -25,7 +25,12 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://mcs-shopify.vercel.app/auth/callback",
+  "https://mcs-shopify.vercel.app/auth/shopify/callback", 
+  "https://mcs-shopify.vercel.app/api/auth/callback",
+  "https://mcs-shopify.vercel.app/api/auth"
+]
 
 [pos]
 embedded = false
