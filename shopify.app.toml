@@ -1,6 +1,6 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "e3b6594ad7e90f604458beac7439253a"
+client_id = "0397283cba9b472c33acea5389c3919a"
 name = "mcs-seller"
 application_url = "https://mcs-shopify.vercel.app"
 embedded = true
@@ -22,7 +22,7 @@ api_version = "2025-07"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_orders"
+scopes = "write_products"
 
 [auth]
 redirect_urls = [
