@@ -1,10 +1,10 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "e3b6594ad7e90f604458beac7439253a"
-name = "mcs-seller"
+name = "mcs-walmart"
 application_url = "https://mcs-shopify.vercel.app"
 embedded = true
-handle = "mcs-seller"
+handle = "mcs-walmart"
 
 [build]
 include_config_on_deploy = true
